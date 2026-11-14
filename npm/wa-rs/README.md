@@ -3,7 +3,7 @@
 Install globally:
 
 ```bash
-npm install -g @vianarasyaaa/wa-rs
+npm install -g @rasya6162/wa-rs
 ```
 
 Run:
@@ -18,7 +18,7 @@ Android/Termux builds the native executable using Cargo:
 
 ```bash
 pkg install nodejs rust -y
-npm install -g @vianarasyaaa/wa-rs
+npm install -g @rasya6162/wa-rs
 ```
 
 Keep the local `auth/` directory private. It contains account credentials
