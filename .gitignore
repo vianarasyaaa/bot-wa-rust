@@ -1,0 +1,22 @@
+# WhatsApp credentials and sessions
+auth/
+auth.old/
+**/creds.json
+**/signal.json
+**/qr.txt
+
+# Backups
+backup/
+
+# Build artifacts
+target/
+
+# Local environment
+.env
+.env.*
+*.log
+*.pem
+*.key
+
+# OS files
+.DS_Store

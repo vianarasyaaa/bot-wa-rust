@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="rust" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F59A55"/>
+      <stop offset="1" stop-color="#B94724"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="#111B24"/>
+  <path d="M128 24 211 55v62c0 57-34 93-83 115-49-22-83-58-83-115V55z" fill="url(#rust)"/>
+  <path d="M128 43 192 67v50c0 44-25 72-64 91-39-19-64-47-64-91V67z" fill="#14232B"/>
+  <path d="M91 92c-11 11-10 31 3 48 14 18 37 28 54 20l13-12-24-18-12 10c-9-4-17-12-21-21l10-11-17-23z" fill="#25D366"/>
+  <path d="m87 168-14 23 29-8" fill="none" stroke="#25D366" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="178" cy="78" r="8" fill="#F59A55"/>
+</svg>

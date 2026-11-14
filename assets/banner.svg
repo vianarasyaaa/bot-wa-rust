@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101923"/>
+      <stop offset=".55" stop-color="#182A32"/>
+      <stop offset="1" stop-color="#24202A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59A55"/>
+      <stop offset="1" stop-color="#25D366"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="70" r="180" fill="#25D366" opacity=".06"/>
+  <circle cx="1090" cy="300" r="190" fill="#E76F32" opacity=".08"/>
+  <path d="M0 300 Q300 220 600 310 T1200 260" fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="2"/>
+  <g transform="translate(80 72)">
+    <rect width="210" height="210" rx="48" fill="#202D35" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <path d="M105 22 174 48v51c0 48-28 77-69 96-41-19-69-48-69-96V48z" fill="#E76F32"/>
+    <path d="M105 39 158 59v40c0 36-21 59-53 75-32-16-53-39-53-75V59z" fill="#14232B"/>
+    <path d="M76 80c-9 9-8 25 3 39 11 15 30 23 44 16l11-10-20-15-10 8c-7-3-14-10-17-17l8-9-14-19z" fill="#25D366"/>
+    <path d="m73 143-11 19 24-7" fill="none" stroke="#25D366" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="340" y="155" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="76" font-weight="700">wa-rs</text>
+  <text x="344" y="205" fill="#B9C8CF" font-family="Arial,sans-serif" font-size="27">Native WhatsApp Web Client &amp; Bot</text>
+  <rect x="344" y="235" width="360" height="5" rx="3" fill="url(#accent)"/>
+  <text x="344" y="278" fill="#D4DEE2" font-family="Arial,sans-serif" font-size="19">Built with Rust. Engineered for messaging.</text>
+</svg>
