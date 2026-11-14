@@ -1,0 +1,33 @@
+{
+  "name": "@vianarasyaaa/wa-rs",
+  "version": "0.5.0",
+  "description": "Native Rust WhatsApp WebSocket bot CLI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vianarasyaaa/bot-wa-rust.git",
+    "directory": "npm/wa-rs"
+  },
+  "homepage": "https://github.com/vianarasyaaa/bot-wa-rust",
+  "bin": {
+    "wa-rs": "bin/wa-rs.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "whatsapp",
+    "rust",
+    "bot",
+    "cli",
+    "termux"
+  ]
+}
